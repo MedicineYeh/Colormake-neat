@@ -8,6 +8,7 @@ inspired by Micheal T. Babcock's excellent logcolorize program.
 To make the compilation of a big project clean and nice to debug. 
 This repo aims to remove unnecessary colors and make it clean and pretty.
 
+![Sample Image](/snapshot42.png?raw=true "Sample Image")
 Files
 -----
 
