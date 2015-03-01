@@ -46,7 +46,7 @@ $col_make =         $col_ltgray;
 $col_filename =     $col_ltgray;
 $col_linenum =      $col_cyan;
 $col_trace =        $col_green;
-$col_warning =      $col_yellow;
+$col_warning =      $col_brighten;
 $col_comment =      $col_drkgray;
 $tag_error =        "";
 $col_error =        $tag_error . $col_red . $col_brighten;
@@ -141,8 +141,7 @@ while (<>)
 	{
 		$in = $1;
 	}
-	elsif ($in eq 'gcc'
-		&& $thisline !~ /^mv\W/
+	elsif ($thisline !~ /^mv\W/
 		)
 	{
 		# Do interesting things if make is compiling something.
